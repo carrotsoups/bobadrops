@@ -1,0 +1,70 @@
+/* Import a playful, handwritten font */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #6ec6f1, #fce5cd);
+    font-family: 'Patrick Hand', cursive;
+    color: #4a4a4a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Fredoka One', cursive;
+    color: #2e4a62;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #4db6ac;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #388e7e;
+}
+
+.turtle-box {
+    background: #a2d9ce;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-cropper {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+img {
+  background: #a2d9ce;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 1);
+}
